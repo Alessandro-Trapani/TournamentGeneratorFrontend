@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Typography, Button, Container, Grid, Card, CardContent } from "@mui/material";
-import SportsEsportsIcon from "@mui/icons-material/SportsEsportsIcon";
+import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import GroupIcon from "@mui/icons-material/Group";
 
