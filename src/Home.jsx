@@ -3,18 +3,19 @@ import { Box, Typography, Button, Container, Grid, Card, CardContent } from "@mu
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import GroupIcon from "@mui/icons-material/Group";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
     <Box
       sx={{
         minHeight: "100vh",
+        minWidth: "100vw",
         background: "linear-gradient(to right, #1e3c72, #2a5298)",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         color: "white",
-        p: 3,
       }}
     >
       <Container maxWidth="lg">
@@ -27,7 +28,10 @@ export default function Home() {
             Organize, manage, and track your tournaments with ease 🎮🏆
           </Typography>
           <Button
+
             variant="contained"
+            component={Link}
+            to="/tournaments/create" 
             size="large"
             sx={{
               mt: 3,
